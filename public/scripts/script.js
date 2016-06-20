@@ -30,9 +30,7 @@ $(function () {
                         if(item.mimetype === "image/jpeg" || item.mimetype === 'image/png' || item.mimetype === 'image/gif'){
                             return item.name;
                         }
-                        console.log(item);
                     });
-                    console.log(data);
                     if(imageUrls && imageUrls[0]){
                         $('.img-container').empty().html('<img src="/uploads/'+imageUrls[0]+'"/>');
                     }else{

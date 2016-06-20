@@ -1,13 +1,17 @@
 {
-  "name": "npm",
+  "name": "baoniu-file-metadata",
   "version": "1.0.0",
   "description": "A barebones Node.js app using [Express 4](http://expressjs.com/).",
   "main": "index.js",
   "dependencies": {
-    "ejs": "^2.4.1",
-    "express": "^4.13.3",
+    "bing.search": "^1.0.1",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
     "mongoose": "^4.5.1",
-    "node-bing-api": "^2.4.1"
+    "util": "^0.10.3",
+    "node-bing-api": "^2.4.1",
+    "strftime": "^0.9.2",
+    "multer": "^1.1.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/baoniu/baoniu-image-search.git"
+    "url": "git+https://github.com/baoniu/baoniu-file-metadata.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/baoniu/baoniu-image-search/issues"
+    "url": "https://github.com/baoniu/baoniu-file-metadata/issues"
   },
-  "homepage": "https://github.com/baoniu/baoniu-image-search#readme"
+  "homepage": "https://github.com/baoniu/baoniu-file-metadata#readme"
 }
