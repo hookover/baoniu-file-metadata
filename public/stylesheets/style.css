@@ -1,0 +1,26 @@
+main{
+    color: #555;
+}
+.card-content .card-title, h4{
+    text-align: center;
+}
+.card-content .data-container{
+    text-align: center;
+    font-size:1.3rem;
+    height: 9rem;
+    line-height: 9rem;
+    color: red;
+}
+.img-container{
+    text-align: center;
+}
+.img-container img{
+    max-width: 100%;
+}
+.img-container i{
+    font-size: 5rem;
+    padding: 1rem;
+}
+.card-content pre{
+    display: none;
+}

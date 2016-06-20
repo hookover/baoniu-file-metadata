@@ -1,0 +1,26 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "A barebones Node.js app using [Express 4](http://expressjs.com/).",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.5.1",
+    "node-bing-api": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baoniu/baoniu-image-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baoniu/baoniu-image-search/issues"
+  },
+  "homepage": "https://github.com/baoniu/baoniu-image-search#readme"
+}

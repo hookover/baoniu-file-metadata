@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baoniu: File Metadata Microservice</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">File Metadata Microservice</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a target="_blank" href="https://github.com/baoniu/baoniu-file-metadata"><i class="fa fa-github fa-4x"></i></a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<main class="container">
+    <h4>API Basejump: File MetaData Microservice</h4>
+    <h5>User stories:</h5>
+    <blockquote>
+        I can submit a FormData object that includes a file upload.
+    </blockquote>
+    <blockquote>
+        When I submit something, I will receive the file size in bytes within the JSON response
+    </blockquote>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-title">File Metadata:</div>
+                    <div class="data-container">
+                        Upload a file to see JSON response
+                    </div>
+<pre>{
+filename: "127.0.0.1 ",
+filesize(mb): "en-US ",
+filetype: "X11; Linux x86_64",
+url:""
+}
+</pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-title">
+                        Upload Your File
+                    </div>
+                    <div class="img-container">
+                        <div class="icon">
+                            <i class="fa fa-file-image-o"></i>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div style="width: 0%" class="determinate"></div>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <a class="upload-btn waves-effect waves-light btn"><i class="fa fa-cloud-upload left"></i>Upload</a>
+                    <input type="file" hidden="" multiple="multiple" name="uploads[]" id="upload-input">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script type="text/javascript" src="../jquery.min.js"></script>
+<script>!window.jQuery && document.write('<script src="//cdn.bootcss.com/jquery/3.0.0-rc1/jquery.min.js"><\/script>');</script>
+<script src="//cdn.bootcss.com/materialize/0.97.6/js/materialize.min.js"></script>
+<script type="text/javascript" src="/scripts/script.js"></script></body>
+</html>
